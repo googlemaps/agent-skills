@@ -1,0 +1,11 @@
+{
+  "name": "googlemaps-agent-skills",
+  "version": "1.0.0",
+  "description": "Google Maps Platform agent skills and workflows.",
+  "contextFileName": "skills/google-maps-platform/SKILL.md",
+  "mcpServers": {
+    "gmp-code-assist": {
+      "httpUrl": "https://mapscodeassist.googleapis.com/mcp"
+    }
+  }
+}
