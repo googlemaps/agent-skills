@@ -30,7 +30,7 @@ This method has been tested as a terminal command or a natural language prompt t
 
 ### Option 2: Gemini CLI Extension
 
-This repository is configured as a Gemini CLI extension. You can add it using the Gemini CLI:
+This repository is configured as a [Gemini CLI extension](https://geminicli.com/extensions/about/). You can add it using the Gemini CLI:
 
 ```bash
 gemini extensions install https://github.com/googlemaps/agent-skills
