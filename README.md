@@ -16,7 +16,7 @@ Google Maps Platform agent skills are portable, self-contained modules of Google
 
 ### Option 1: Agent Skills CLI 
 
-For most popular AI-assistive tools, you can use the `skills` CLI to install Google Maps Platform agent skills:
+For [most popular AI-assistive tools](https://www.skills.sh/agent), you can use the `skills` CLI to install Google Maps Platform agent skills:
 
 ```bash
 npx skills add googlemaps/agent-skills
@@ -24,6 +24,7 @@ npx skills add googlemaps/agent-skills
 
 This method has been tested as a terminal command or a natural language prompt to the agent in:
 - **AI Studio**
+- **Antigravity**
 - **Claude Code**
 - **Replit** (alternate instructions: [Use the Project Editor UI](https://docs.replit.com/build/use-agent-skills#install-a-skill-in-your-project))
 
@@ -37,25 +38,13 @@ gemini extensions install https://github.com/googlemaps/agent-skills
 
 ### Option 3: Lovable installation
 
-Install the Google Maps Platform agent skills in Lovable using the Skills settings UI:
+Install the Google Maps Platform agent skills in Lovable [using the Skills settings UI](https://docs.lovable.dev/features/skills#import-from-github):
 1. Visit https://lovable.dev/settings/skills
 2. Under Workspace skills, click "**Add** > **Import from GitHub**"
 3. Paste the URL for the google-maps-platform main skill:
 
 ```
-https://github.com/googlemaps/agent-skills/skills/google-maps-platform
-```
-
-### Option 4: Cursor installation
-
-You can [install skills in Cursor from GitHub](https://cursor.com/docs/skills#installing-skills-from-github):
-1. Open **Customize** in the sidebar
-2. Go to **Rules** and click **Add Rule**
-3. Select **Remote Rule (Github)**
-4. Paste the URL for this respository:
-
-```
-https://github.com/googlemaps/agent-skills
+https://github.com/googlemaps/agent-skills/tree/main/skills/google-maps-platform
 ```
 
 ---
