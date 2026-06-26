@@ -1,6 +1,6 @@
-# Contributing to Google Agent Skills
+# Contributing to Google Maps Platform agent skills
 
-Thank you for your interest in the Google Agent Skills repository!
+Thank you for your interest in the Google Maps Platform agent skills repository!
 
 ## Our Contribution Policy
 
@@ -16,7 +16,7 @@ for improving the quality of these skills:
 
 *   **Report Issues:** If you find a bug, an outdated SDK pattern, or a security
     anti-pattern in a skill, please
-    [open an issue](https://github.com/google/skills/issues).
+    [open an issue](https://github.com/googlemaps/agent-skills/issues).
 
 *   **Request New Skills:** If there is a Google product or a common
     cross-product architectural pattern you would like to see covered, please
