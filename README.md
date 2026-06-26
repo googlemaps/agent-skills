@@ -14,9 +14,9 @@ Google Maps Platform agent skills are portable, self-contained modules of Google
 
 ## Installation
 
-### Option 1: Agent Skills CLI 
+### Option 1: Skills CLI 
 
-For [most popular AI-assistive tools](https://www.skills.sh/agent), you can use the `skills` CLI to install Google Maps Platform agent skills:
+For [most popular AI-assistive tools](https://www.skills.sh/agent), you can use the `skills` command line interface (CLI) to install Google Maps Platform agent skills:
 
 ```bash
 npx skills add googlemaps/agent-skills
