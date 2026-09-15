@@ -47,6 +47,33 @@ Install the Google Maps Platform agent skills in Lovable [using the Skills setti
 https://github.com/googlemaps/agent-skills/tree/main/skills/google-maps-platform
 ```
 
+### Option 4: OpenAI Codex / ChatGPT Agent Plugin
+
+This repository complies with the [Agent Plugins 1.0 specification](https://agent-plugins.org) and is ready for use with OpenAI Codex and ChatGPT.
+
+#### Local Testing via Marketplace Mock
+To test the skill locally within Codex, configure a `.agents/plugins/marketplace.json` in your testing environment:
+
+```json
+{
+  "name": "google-maps-platform",
+  "plugins": [
+    {
+      "name": "google-maps-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/googlemaps/agent-skills.git",
+        "path": "./",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      }
+    }
+  ]
+}
+```
+
 ---
 
 ## Contributing
