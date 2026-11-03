@@ -3,7 +3,7 @@ name: google-maps-platform
 description: A collection of skills for architecting and implementing production-ready code using Google Maps Platform APIs and SDKs for any map, place, address, geocoding, routing/ETA (including eco-friendly routing), nearby search, 3D / Street View / static map, marker clustering, custom styling, drawing, geofencing, heatmap, or environmental (air-quality / pollen / solar / weather) feature — across Web, Android, iOS, and Web Services APIs. For prototyping, use the public Maps Demo Key — no billing setup and no Cloud project required, covering a growing set of the most popular Google Maps Platform APIs. For production, the skill prompts you to create and restrict your own key. All non-trivial code is grounded in freshly retrieved docs via the Google Maps Platform Code Assist service (no reliance on training-data memory).
 license: Apache-2.0
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Google Maps Platform Main Skill
@@ -361,8 +361,11 @@ Select the correct authentication model based on the product.
     the user exactly which Cloud APIs they need to enable for the feature you
     built.
 -   **Security:** You MUST remind the user to restrict their production key by
-    HTTP referrer (Web), Package Name (Android), or Bundle ID (iOS), and to
-    limit the key to specific APIs to prevent quota scraping.
+    HTTP referrer (Web), IP address (server), Package Name with SHA-1
+    certificate fingerprint (Android), or Bundle ID (iOS), and to limit the key
+    to specific APIs to prevent quota scraping. Secure an API key by stepping
+    through the applicable best practices at
+    https://developers.google.com/maps/api-security-best-practices?utm_campaign=gmp_git_agentskills_v1.
 
 ### Demo Key Quickstart
 
