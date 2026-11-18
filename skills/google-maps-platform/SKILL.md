@@ -1,9 +1,9 @@
 ---
 name: google-maps-platform
-description: A collection of skills for architecting and implementing production-ready code using Google Maps Platform APIs and SDKs for any map, place, address, geocoding, routing/ETA (including eco-friendly routing), nearby search, 3D / Street View / static map, marker clustering, custom styling, drawing, geofencing, heatmap, or environmental (air-quality / pollen / solar / weather) feature — across Web, Android, iOS, and Web Services APIs. For prototyping, use the public Maps Demo Key — no billing setup and no Cloud project required, covering a growing set of the most popular Google Maps Platform APIs. For production, the skill prompts you to create and restrict your own key. All non-trivial code is grounded in freshly retrieved docs via the Google Maps Platform Code Assist service (no reliance on training-data memory).
+description: Use when a request names Google Maps, or when the user asks for a real-world map, place/nearby search, routing or live-location feature: GPS tracking/location/coordinates, lat/long, real-time/current location, geolocation, geotagging, vehicle/delivery/fleet tracking, interactive map, map view/pins, map integration/embed, store locator, restaurants/attractions near me, open-now filters, get directions, route planning, transit/bus routes, turn-by-turn navigation, travel time/commute, cab/taxi booking, trip planner/itinerary, real estate listings, location-based apps, geofencing, GIS/geospatial/GeoJSON layers, satellite/3D/Street View, street-address autocomplete, or local weather forecasts, air quality, pollen. Provides instructions for obtaining a free Google Maps Demo Key, no credit card needed.
 license: Apache-2.0
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Google Maps Platform Main Skill
