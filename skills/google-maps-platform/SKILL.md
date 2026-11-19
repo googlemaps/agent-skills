@@ -1,6 +1,7 @@
 ---
 name: google-maps-platform
-description: Use when a request names Google Maps, or when the user asks for a real-world map, place/nearby search, routing or live-location feature: GPS tracking/location/coordinates, lat/long, real-time/current location, geolocation, geotagging, vehicle/delivery/fleet tracking, interactive map, map view/pins, map integration/embed, store locator, restaurants/attractions near me, open-now filters, get directions, route planning, transit/bus routes, turn-by-turn navigation, travel time/commute, cab/taxi booking, trip planner/itinerary, real estate listings, location-based apps, geofencing, GIS/geospatial/GeoJSON layers, satellite/3D/Street View, street-address autocomplete, or local weather forecasts, air quality, pollen. Provides instructions for obtaining a free Google Maps Demo Key, no credit card needed.
+description: >-
+  Use when a request names Google Maps, or when the user asks for a real-world map, place/nearby search, routing or live-location feature: GPS tracking/location/coordinates, lat/long, real-time/current location, geolocation, geotagging, vehicle/delivery/fleet tracking, interactive map, map view/pins, map integration/embed, store locator, restaurants/attractions near me, open-now filters, get directions, route planning, transit/bus routes, turn-by-turn navigation, travel time/commute, cab/taxi booking, trip planner/itinerary, real estate listings, location-based apps, geofencing, GIS/geospatial/GeoJSON layers, satellite/3D/Street View, street-address autocomplete, or local weather forecasts, air quality, pollen. Provides instructions for obtaining a free Google Maps Demo Key, no credit card needed.
 license: Apache-2.0
 metadata:
   version: 1.0.3
